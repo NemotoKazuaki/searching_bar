@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  background-color: whitesmoke;
+  margin: 0;
+  /*余白をなくす*/
+}
+
+.searchBotton {
+  width: 25%;
+  height: 40px;
+  color: dimgray;
+  padding: 7px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 10vh;
+}
+
+header h1 {
+  float: center;
+  padding: 6px 0;
+  text-align: center;
+}
+
+header h1 img {
+  vertical-align: middle;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  width: auto;
+  overflow: auto;
+  /* スクロールする範囲を制御 */
+  margin: 0 auto;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.sectionTitle {
+  color: dimgray;
+  font-size: 25px;
+}
+
+.catchCopy {
+  text-align: center;
+}
+
+.catchCopy p {
+  font-size: 15px;
+  color: gray;
+}
+
+.searchArea {
+  text-align: center;
+}
+
+.searchArea p {
+  font-size: 15px;
+  color: darkgray;
+}
+
+.searchArea .inputBox {
+  margin: 10px auto 2px auto;
+  width: 220px;
+  height: 45px;
+  font-size: 15px;
+}
+
+.searchArea .searchBotton {
+  margin-bottom: 15px;
+}
+
+.underLine {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: solid 1px black;
+}
+
+.searchBar {
+  text-align: center;
+}
+
+.searchBar p {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.searchBar select {
+  font-size: 20px;
+  color: gray;
+  border: 0px;
+  border-bottom: solid 1px black;
+  outline: 0px;
+  background-color: whitesmoke;
+}
+
+.searchBar .searchBotton {
+  margin-top: 15px;
+}
+
+footer {
+  background-color: dimgray;
+  position: fixed;
+  /* 固定 */
+  bottom: 0;
+  /* 一番下に表示 */
+  width: 100%;
+  /* 中央に表示 */
+  height: 50px;
+  color: white;
+  font-size: 25px;
+}
+
+footer p {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+/*# sourceMappingURL=bar_search.css.map */

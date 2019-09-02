@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+  
+<head>
+	<meta http-equiv="content-type" content="text/html" charset="utf-8">
+	<title>バー検索画面</title>
+	<link href=".\reset.scss" rel="stylesheet" type="text/css">
+	<link href=".\bar_search.css" rel="stylesheet" type="text/css">
+</head> 
+  
+<body>
+    
+<header>
+	<h1><img src=".\serviceLogo.jpg" alt="ServieLogo" width="400px" height="50px"></h1>
+</header>
+  
+<main>
+	<section class="catchCopy">
+		<h4 class="sectionTitle">キャッチコピーが入ります。</h4>
+		<p>リードテキストが入ります。リードテキストが入ります。リードテキストが入ります。</p>
+	</section>
+  
+	<section class="searchArea">
+		<h4 class="sectionTitle">エリアから探す</h4>
+		<p>※現在対象エリアは東京23区内限定となります。</p>
+		<form id ="form" action="" method="post">
+			<p><input class="inputBox" type="text" name="keyword" placeholder="例：東京駅" /></p>
+			<input class="searchBotton" type="submit" value="探す"/>
+		</form>
+	</section>
+  
+	<p class="underLine"></p>
+  
+	<section class="searchBar">
+		<h4 class="sectionTitle">近くのバーを探す</h4>
+		<form id="form" action="" method="POST">
+			<p>
+				現在地から
+				<select class="moving method" name="moving method">
+				<option value="car" selected="selected">車で</option>
+				<option value="walk">徒歩で</option>
+				</select>
+				<select class="time" name="time">
+				<option value="five" selected="selected">5分</option>
+				<option value="ten">10分</option>
+				<option value="fifteen">15分</option>
+				<option value="twenty">20分</option>
+				</select>
+				以内
+			</p>
+			<input class="searchBotton" type="submit" value="探す"/>
+		</form>
+	</section>
+</main>
+  
+<footer>
+  <p>Service Name</p>
+</footer>
+</body>
+</html>
